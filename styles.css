@@ -5,3 +5,8 @@ section img {
     float: left;
     margin: 10px 10px;
 }
+section {
+    overflow: auto;/*este overflow auto permite que la imagen que no ocupa espacio por la propiedad de 
+    float llene el contenedor y el footer quede debajo*/
+
+}
